@@ -33,7 +33,7 @@ jobs:
   name: build-job
   runs-on: ubuntu-latest
   container:
-   image: overn/bin:slim
+   image: oven/bun:slim
   steps:
    - name: define output variable
      id: buildStep
