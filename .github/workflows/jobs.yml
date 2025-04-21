@@ -1,8 +1,9 @@
 name: jobs
 
 on:
+ workflow_dispatch:
  push:
-
+ 
 
 jobs:
  concurrency-job1:
